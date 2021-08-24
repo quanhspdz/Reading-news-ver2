@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuVNEX"
+        android:title="VNExpress news"/>
+    <item android:id="@+id/menuThNienCN"
+        android:title="Thanh nien - Tech"/>
+    <item android:id="@+id/menuCNETAndroid"
+        android:title="CNET Android news"/>
+    <item android:id="@+id/menuCNETGamingNews"
+        android:title="CNET Gaming news"/>
+    <item android:id="@+id/menuCNET"
+        android:title="CNET news"/>
+    <item android:id="@+id/menuGamek"
+        android:title="GameK news"/>
+    <item android:id="@+id/menuRefresh"
+        android:title="refresh"
+        android:icon="@drawable/refresh_icon"
+        app:showAsAction="always"/>
+
+</menu>
