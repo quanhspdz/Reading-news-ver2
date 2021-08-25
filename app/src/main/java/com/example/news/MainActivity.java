@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new NewsAdapter(MainActivity.this, R.layout.each_list_item, arrayNews);
 
         //set the current new to CNET
-        currentNews = CNETAnroidNews;
+        currentNews = CNETNews;
         setNewsUrl(currentNews);
         lvNews.setAdapter(adapter);
 
